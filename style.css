@@ -1,0 +1,49 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* Essa parte precisa sempre deixar ativada */
+}
+body {
+    background-image: linear-gradient(to right, gray, blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px
+}
+
+h1 {
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+.destaque{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    transition: 1.5s;
+}
+.destaque:hover{
+    padding: 25px;
+    background-color: black;
+}
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-container img{
+    width: 100px;
+}
